@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include src/ai_config_analyzer *.py
+recursive-include examples *
+recursive-exclude tests *
+global-exclude *.pyc __pycache__

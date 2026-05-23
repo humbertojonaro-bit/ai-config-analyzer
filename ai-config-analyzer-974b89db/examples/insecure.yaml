@@ -1,0 +1,10 @@
+service:
+  name: payments
+  host: 0.0.0.0
+  debug: true
+database:
+  password: hunter2
+  verify_ssl: false
+feature_flags:
+  new_ui: ${NEW_UI}
+empty_key: ""

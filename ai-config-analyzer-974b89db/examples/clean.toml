@@ -1,0 +1,8 @@
+[service]
+name = "payments"
+host = "127.0.0.1"
+debug = false
+
+[database]
+password = "${DB_PASSWORD}"
+verify_ssl = true
